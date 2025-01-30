@@ -40,9 +40,7 @@ qr = qrcode.QRCode(
 
 )
 
-data = result
-# as i have given the path of my channel like the same way you can give anything
-# if you dont want to redirect and create for normal text that write text in the quotes
+data = result
 
 qr.add_data(data)
 qr.make(fit = True)
